@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Menu</a>
+            </li>
+          </ul>
+    </header>
+  <center>
+      <form style="width: 50%" action="enviolib.php" method="POST">
+
+          <div class="mb-3">
+            <label  class="form-label">Isbn</label>
+            <input type="text" class="form-control" name="isbn" placeholder="Identificador único del libro" maxlength="10">
+            <div  class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Titulo</label>
+            <input type="text" class="form-control" name="titulo" placeholder="Título del libro" maxlength="40">
+          </div>
+          <div class="mb-3">
+              <label class="form-label">IdAutor</label>
+              <input type="text" class="form-control" name="idautor" placeholder="Número identificador del autor" maxlength="10">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">IdEditorial</label>
+                <input type="text" class="form-control" name="ideditorial" placeholder="Número identificador de la editorial" maxlength="10">
+              </div>
+
+          <button type="submit" class="btn btn-primary">Registrar</button>
+        </form>
+  </center>
+    
+
+</body>
+
+</html>

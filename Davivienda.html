@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="Davivienda.php" method="POST" style="color: black; background: burlywood; margin: 0% 20% 0% 20%" >
+    Increse su Cedula:
+    <br>
+    <input type="text" name="cedula">
+    <br>
+    Increse su nombre:
+    <br>
+    <input type="text" name="nombre">
+    <br>
+    Ingrese el valor:
+    <br>
+    <input type="number" name="valor">
+    <br>
+    Ingese el tipo de cuenta:
+    <br>
+    <select name="tipo" id="tipo" required>
+        <option selected disabled value="">Seleccone....</option>
+        <option >Cuenta Corriente</option>
+        <option >Cuenta Ahorros</option>
+        <option >Cuenta Dolares</option>
+        <option >Cuenta Cheque</option>
+    </select>
+    <br>
+    Ingrese la cuenta:
+    <br>
+    <input type="text" name="cuenta">
+    <br>
+    <input type="submit" value ="Guardar">
+    </form>
+</center>
+</body>
+</html>
